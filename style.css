@@ -1,0 +1,137 @@
+body{
+    /* background-color: rgb(6, 2, 70); */
+    background-color: #fff;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+   color: #fff; 
+}
+
+header{
+    display: flex;
+    background-color: black;
+    border-color: rgb(94, 8, 137);
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    margin-right: 12px;
+}
+.logo img{
+    height: 50px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 11px;
+}
+nav a:hover{
+    color:blueviolet;
+    background-color: rgb(22, 2, 71);
+}
+@media (max-width:300px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+
+    }
+
+}
+
+#titulo{
+    color: white;
+    border-style: solid;
+    border-color: rgb(31, 3, 125);
+    border-radius: 2px;
+    border-width: 15px;
+    text-align: left;
+    background-color: rgb(50, 4, 71);
+    text-decoration: solid;
+    text-shadow: 3px 5px 5px black;
+    padding: 1px;
+}
+
+
+/* .container{
+        width: 400px;
+        height: auto;
+        margin: 50px auto;
+        overflow: hidden;
+       
+}
+.mario{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    animation: mario 3s infinite;
+    position: relative;
+    left: 100px;
+} */
+/* @keyframes mario {
+    0%{
+        transform: translateY(-50px);
+    }
+    30%{
+        transform: translateY(0) rotate(5deg);
+    }
+    50%{
+        transform:  rotate(5deg);
+    }
+    75%{
+        transform:  rotate(5deg);
+    }
+    100%{
+        transform: translateY(-50px); 
+    }
+    
+} */
+
+.nav-enlace{
+    display: inline-block;
+    background-color: rgb(40, 2, 53);
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 5px;
+}
+.nav-enlace:hover{
+    background-color: rgb(81, 7, 97);
+    
+}
+/* nav{
+    background-color: rgb(6, 2, 70);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    max-width: 140px;
+} */
+.nav-boton{
+    background-color: rgb(6, 2,70);
+    color: white;
+  
+}
+.nav-boton:hover{
+    background-color: rgb(22,2,7);
+    color: blueviolet;
+}
+.desaparece{
+    display: none;
+}
+/* .bio{
+    background-color: aquamarine;
+    color: #fff;
+    padding: 2px;
+    display: block;
+    left: -50px;
+} */
+
